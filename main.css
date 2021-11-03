@@ -1,0 +1,233 @@
+body {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    color: #242323;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+
+.under-small-line {
+    background-color: #434343;
+    height: 1px;
+    width: 30px;
+}
+
+.section-title {
+    text-align: center;
+    color: #434343;
+}
+
+.header-container{
+    display: flex;
+    padding: 0 50px;
+    height: 60px;
+}
+
+.logo{
+    height: 60px;
+}
+
+.header-menu {
+    padding-left: 350px;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item {
+    padding: 5px 25px 0 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu-item a {
+    cursor: pointer;
+    color: #242323;
+    text-decoration: none;
+}
+
+.banner {
+    display: inline-block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://resources.owllabs.com/hs-fs/hubfs/fog-3622519_1920-jpg.jpeg?width=882&name=fog-3622519_1920-jpg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.banner-container {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    line-height: 20px;
+}
+
+.banner-title {
+    font-size: 50px;
+}
+
+.banner-content {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+}
+
+.banner-button {
+    padding: 12px 20px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #242323;
+}
+
+.banner-button:hover {
+    background-color: #ddd;
+}
+
+.service-container {
+    margin-top: 80px;
+}
+
+.service-description {
+    margin: 0 20%;
+    color: #a9a9a9;
+    font-style:italic;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    padding: 50px;
+}
+
+.service-item {
+    background-color: #f8f8f8;
+    padding: 40px 30px 30px;
+    margin: 15px;
+}
+
+.service-item .service-icon {
+    background-color: #ed5f5e;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 42px;
+}
+
+.service-item .service-item-title {
+    margin-top: 35px;
+}
+
+.service-item .service-item-description {
+    margin: 10px 0;
+    color: #767676;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.portfolio-container {
+    background-color:#f8f8f8;
+    padding: 70px 0;
+    margin-top: 10px;
+}
+
+.portfolio-type-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.portfolio-type-item {
+    background-color: #fff;
+    color: #434343;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.portfolio-type-item:hover {
+    cursor: pointer;
+    color: #ed5f5e;
+}
+
+.portfolio-container .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 70px 0 70px;
+    justify-content: space-between;
+}
+
+.portfolio-list .portfolio-item {
+    background-color: #f1f1f1;
+    margin: 10px;
+    font-size: 30px; 
+    width: 359px;
+    height: 250px;
+}
+
+.content-container {
+    display: flex;
+    padding: 70px;
+}
+
+.content {
+    padding: 0 20px;
+}
+
+.content-title {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.content-description {
+    font-size: 14px;
+    color: #434343;
+    line-height: 30px;
+}
+
+.content-button {
+    background-color: #434343;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+.content-button:hover {
+    background-color: #000;
+}
+
+.content-img {
+    padding-left: 20px;
+}
+
+.blog-list {
+    display: flex;
+    justify-content:space-between ;
+    padding: 50px;
+}
+
+.blog-item {
+    padding: 10px;
+}
+
+.blog-img {
+    width: 370px;
+}
